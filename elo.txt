@@ -1,0 +1,30 @@
+Aero.png#1000
+Air Heads.png#1000
+BBQ Pringles.png#1000
+Ben and Jerry's Cookie Dough.png#1000
+Cheeto Puffs.png#1000
+Cheetos.png#1000
+Coffee Crisp.png#1000
+Cool Ranch Doritos.png#1000
+Doritos.png#1000
+Flamin' Hot Cheetos.png#1000
+Frito Hoops.png#1000
+Fritos.png#1000
+Fruit by the Foot.png#1000
+Gushers.png#1000
+Kit Kat.png#1000
+Lays.png#1000
+M&M's.png#1000
+Maple Cookies.png#1000
+Oreos.png#1000
+Pizza Pringles.png#1000
+Pizza Rolls.png#1000
+Pringles.png#1000
+Reese's Peanut Butter Cups.png#1000
+Runts.png#1000
+SCO Pringles.png#1000
+Skittles.png#1000
+Swedish Berries.png#1000
+Sweet Chili Heat Doritos.png#1000
+Swiss Cheese Crackers.png#1000
+Warheads.png#1000
