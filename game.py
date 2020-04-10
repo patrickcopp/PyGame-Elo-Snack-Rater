@@ -97,14 +97,15 @@ add_pics(competitors)
 pygame.display.update()
 
 run = True
-exit=False
+yolo=False
 while run:
     pygame.time.delay(80)
     for event in pygame.event.get():
         if event.type == pygame.QUIT:
             run = False
         if event.type == pygame.KEYDOWN:
-            if event.key == pygame.K_LEFT and not exit:
+            
+            if event.key == pygame.K_LEFT and not yolo:
 
                 elo_update(competitors,30,0)
 
@@ -114,7 +115,7 @@ while run:
                 add_pics(competitors)
                 pygame.display.update()
 
-            if event.key == pygame.K_RIGHT and not exit:
+            if event.key == pygame.K_RIGHT and not yolo:
 
                 elo_update(competitors,30,1)
 
@@ -124,8 +125,8 @@ while run:
                 add_pics(competitors)
                 pygame.display.update()
             
-            if event.key == pygame.K_ESCAPE and not exit:
-                exit=True
+            if event.key == pygame.K_ESCAPE and not yolo:
+                yolo=True
                 win.fill((0, 0, 0))
                 
                 text=read_sort()
@@ -134,7 +135,7 @@ while run:
                 pygame.display.update()
                 pygame.time.delay(80)
 
-            if event.key == pygame.K_ESCAPE and exit:
+            elif event.key == pygame.K_ESCAPE and yolo:
                 run = False
 
     keys = pygame.key.get_pressed()
